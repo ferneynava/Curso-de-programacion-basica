@@ -1,0 +1,40 @@
+<!DOCTYPE html> <!-- Buena practica de html5-->
+
+<html>
+    <head><!--Contiene todos los elementos no visibles de la pagina, metadatos, etc.. -->
+        <title>Mi primer Archivo HTML</title>
+        <!--<title/> Sirve para poner un titulo a tu pagina. El titulo es muy importante
+        y aque google le da mucha relevancia par aque encuentren tu pagina en los navegadores-->
+        <style type="text/css"> /* <style> se utiliza para definir un codigo en CSS, se coloca dentro de head */
+            /* type="text/css" esto es un atributo de la etiqueda que indica que es css*/
+        body /* Contiene todos los elementos visuales de css pagina*/
+        {
+            background-color: blue; /*Color de fondo pagina, podemos utilizar codido hexadecimal #AAAAFF */
+            color: white; /* Color del texto*/
+            font-family: Helvetica; /*Cambiar la fuente del texto */
+        }
+        strong /* cambiar atributos a strong (negrita) */
+        {
+            background-color: violet; /*Color de fondo al strong (negrita)*/ 
+        }
+        </style>
+    </head>
+    <body><!--Contiene todos ls elementos visuales de la pagina -->
+            <p> Hola <strong> mamá ya casi aprendo </strong> </p>
+            <!-- <strong> Sirve par aponer negrita-->
+            <p> Este es otro parrafo</p> 
+            <!-- <p> es un parrafo, Todos los textos en HTML deben estar envueltos por etiquetas-->
+     <script type="text/JavaScript"> /*<script> se utiliza para definir un script de JavaScript, se coloca antes de cerrar el body*/
+              /* type="text/JavaScript" esto es un atributo de la estiqueda que indica que es JavaScript*/
+          var x = 1;
+          /* var declara una variable, como let o const */
+          var y = 2;
+          /* Las variables tienen reglas: No pueden empezar con números (solo letras), se diferencian 
+          mayusculas y minisculas, y no se pueden usar caracteres raros (como ñ o tildes) ni espacios.*/
+          var z = x + y;
+          document.write("El valor de z es " + z); 
+          /* document.write es una funcion que escribe strings dentro de html, es como body pero dentro de JavaScript*/
+     </script>
+    </body>
+</html>
+ 
