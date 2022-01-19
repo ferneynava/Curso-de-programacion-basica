@@ -47,6 +47,14 @@ body
     padding: 1em;
     background-color: white;
 }
+
+#footer
+{
+    background-color: #777;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
 strong
 {
     background-color: gold;
