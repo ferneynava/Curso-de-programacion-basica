@@ -8,4 +8,5 @@ Curso de programación básica en Platzi.
 - VillaPlatzi.
 - Arduinonode.
 - Creado gracias a los cursos de Platzi 
+- Incluye proyectos 
 
