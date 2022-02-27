@@ -9,3 +9,5 @@ Curso de programación básica en Platzi.
 - Arduinonode.
 - Creado gracias a los cursos de Platzi 
 
+- Incluye proyectos 
+- Excelente curso de programación basica 
